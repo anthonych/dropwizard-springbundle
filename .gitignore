@@ -1,0 +1,10 @@
+#Intellij Idea
+.idea
+target
+logs
+#Eclipse
+.settings/
+.classpath
+.project
+#Netbeans
+nb-configuration.xml
