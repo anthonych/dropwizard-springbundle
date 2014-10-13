@@ -1,0 +1,12 @@
+spring:
+    # Assign Spring Application Context File to Load.
+    applicationContext: ['classpath:applicationContext.xml']
+server:
+  type: simple
+  applicationContextPath: /demo
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+logging:
+    level: INFO
